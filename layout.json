@@ -1,0 +1,50 @@
+{
+  "overlays": [
+    {
+      "type": "image",
+      "path": "assets/channel_logo.png",
+      "x": 20,
+      "y": 20,
+      "alpha": 1.0
+    },
+    {
+      "type": "image",
+      "path": "assets/sponsor_logo.png",
+      "x": 1100,
+      "y": 20,
+      "alpha": 0.9
+    },
+    {
+      "type": "clock",
+      "x": 1160,
+      "y": 670
+    },
+    {
+      "type": "timer",
+      "duration": 300,
+      "running": true,
+      "x": 560,
+      "y": 40
+    },
+    {
+      "type": "text",
+      "text": "Now Playing: Sample Show",
+      "x": 20,
+      "y": 660
+    },
+    {
+      "type": "text",
+      "text": "Next: Coming Up Next",
+      "x": 20,
+      "y": 690
+    },
+    {
+      "type": "crawl",
+      "text": "This is a sample news ticker. Replace with RSS integration or moderated SMS feed.",
+      "x": 1280,
+      "y": 700,
+      "speed": 120,
+      "area_width": 3000
+    }
+  ]
+}
