@@ -1,0 +1,4 @@
+PyQt5==5.15.9
+opencv-python==4.5.5.64
+numpy==1.21.6
+feedparser==6.0.10
